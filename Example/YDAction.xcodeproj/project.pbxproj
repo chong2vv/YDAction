@@ -37,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1567D4242C8B07E500FD0C94 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1567D4262C8B07E500FD0C94 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1567D4292C8B0D6000FD0C94 /* YDAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAction.h; sourceTree = "<group>"; };
+		1567D42A2C8B0D6000FD0C94 /* YDAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAction.m; sourceTree = "<group>"; };
+		1567D42B2C8B21B900FD0C94 /* YDDic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDDic.h; sourceTree = "<group>"; };
+		1567D42C2C8B21B900FD0C94 /* YDDic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDDic.m; sourceTree = "<group>"; };
+		1567D42D2C8C255F00FD0C94 /* YDMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMediator.h; sourceTree = "<group>"; };
+		1567D42E2C8C255F00FD0C94 /* YDMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMediator.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YDAction_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDAction_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,13 +64,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		64DA690B6497E77A38B52CB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		64DA690B6497E77A38B52CB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85BB12456FE190BAFB38F555 /* Pods-YDAction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAction_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDAction_Tests/Pods-YDAction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A90245AB137FF136E463FB66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A90245AB137FF136E463FB66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B1AB755B9CEEFC7F08FF4E4F /* Pods_YDAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDAction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44B88DEA06F072F87365A1A /* YDAction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YDAction.podspec; path = ../YDAction.podspec; sourceTree = "<group>"; };
+		C44B88DEA06F072F87365A1A /* YDAction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDAction.podspec; path = ../YDAction.podspec; sourceTree = "<group>"; };
 		C54D76DEDAE4CF102ACD39DA /* Pods-YDAction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAction_Example.release.xcconfig"; path = "Target Support Files/Pods-YDAction_Example/Pods-YDAction_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D97AB31E8672323DAFC94F7B /* Pods-YDAction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAction_Example.debug.xcconfig"; path = "Target Support Files/Pods-YDAction_Example/Pods-YDAction_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9E4E12A6B0DACC1BE0697AC /* Pods_YDAction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDAction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +103,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1567D4252C8B07E500FD0C94 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1567D4242C8B07E500FD0C94 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1567D4272C8B07E500FD0C94 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1567D4262C8B07E500FD0C94 /* .gitkeep */,
+				1567D42D2C8C255F00FD0C94 /* YDMediator.h */,
+				1567D42E2C8C255F00FD0C94 /* YDMediator.m */,
+				1567D4292C8B0D6000FD0C94 /* YDAction.h */,
+				1567D42A2C8B0D6000FD0C94 /* YDAction.m */,
+				1567D42B2C8B21B900FD0C94 /* YDDic.h */,
+				1567D42C2C8B21B900FD0C94 /* YDDic.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1567D4282C8B07E500FD0C94 /* YDAction */ = {
+			isa = PBXGroup;
+			children = (
+				1567D4252C8B07E500FD0C94 /* Assets */,
+				1567D4272C8B07E500FD0C94 /* Classes */,
+			);
+			name = YDAction;
+			path = ../YDAction;
+			sourceTree = "<group>";
+		};
 		32E42828E6F69CC2E592C432 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,13 +143,13 @@
 				F8EAD235C792C83A77EEA3D5 /* Pods-YDAction_Tests.debug.xcconfig */,
 				85BB12456FE190BAFB38F555 /* Pods-YDAction_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				1567D4282C8B07E500FD0C94 /* YDAction */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YDAction */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -249,6 +289,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wangyuandong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 83G2F8FWQZ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +302,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +557,7 @@
 			baseConfigurationReference = D97AB31E8672323DAFC94F7B /* Pods-YDAction_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83G2F8FWQZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDAction/YDAction-Prefix.pch";
 				INFOPLIST_FILE = "YDAction/YDAction-Info.plist";
@@ -529,6 +574,7 @@
 			baseConfigurationReference = C54D76DEDAE4CF102ACD39DA /* Pods-YDAction_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83G2F8FWQZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDAction/YDAction-Prefix.pch";
 				INFOPLIST_FILE = "YDAction/YDAction-Info.plist";
